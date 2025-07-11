@@ -3,3 +3,5 @@ langgraph
 langchain
 groq
 python-dotenv
+Flask
+langchain-core
