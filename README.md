@@ -2,6 +2,8 @@
 # 🧠 AI-Powered Content Strategy Agent 🚀  
 _A Multi-Agent Flask App Powered by LangGraph + Groq_
 
+## Live App: https://content-creator-market-agency-agent.onrender.com/
+
 ## 📌 What Is This?
 
 This project is a full-stack AI system that automates your **entire content strategy workflow**.  
@@ -55,38 +57,49 @@ This app includes a **multi-agentic system**, where each agent specializes in on
 ```bash
 git clone https://github.com/your-repo-link.git
 cd your-repo-link
-2. Install Dependencies
+````
+
+### 2. Install Dependencies
+
 Create a virtual environment and run:
 
-bash
-Copy
-Edit
+```bash
 pip install -r requirements.txt
-3. Set Up Environment
-Create a .env file in the root directory and add your Groq API Key:
+```
 
-ini
-Copy
-Edit
+### 3. Set Up Environment
+
+Create a `.env` file in the root directory and add your Groq API Key:
+
+```
 GROQ_API_KEY=your_groq_api_key_here
-4. Run the App
-bash
-Copy
-Edit
-python app.py
-App will be available at http://localhost:5000
+```
 
-📁 Project Structure
-bash
-Copy
-Edit
+### 4. Run the App
+
+```bash
+python app.py
+```
+
+App will be available at `http://localhost:5000`
+
+---
+
+## 📁 Project Structure
+
+```
 ├── app.py                 # Main Flask application
 ├── templates/
 │   └── index.html         # Frontend UI
 ├── requirements.txt       # Dependencies
 ├── .env                   # API key (ignored in Git)
 ├── README.md              # You're here!
-⚡ Why Use This?
+```
+
+---
+
+## ⚡ Why Use This?
+
 This AI agent replaces hours of manual work with instant, insight-rich strategy generation:
 
 ✅ Save Time
@@ -94,30 +107,25 @@ This AI agent replaces hours of manual work with instant, insight-rich strategy 
 ✅ Create High-Impact Content
 ✅ Automate Research & Ideation
 
-🧠 Powered By
-LangGraph
+---
 
-Groq API
+## 🧠 Powered By
 
-LangChain
-
-Render
-
-🤝 Let's Connect
-If you're building with LangGraph, Groq, or working on multi-agent AI — I'm happy to collaborate or brainstorm. Drop a ⭐ if this helped!
-
-📜 License
-MIT License – use it freely, improve it, build on top of it!
-
-yaml
-Copy
-Edit
+* [LangGraph](https://github.com/langchain-ai/langgraph)
+* [Groq API](https://console.groq.com/)
+* [LangChain](https://github.com/langchain-ai/langchain)
+* [Render](https://render.com)
 
 ---
 
-Let me know if you want:
-- A matching **`index.html`** template
-- **Deploy buttons** (like `Deploy to Render`)
-- A **badge-powered GitHub profile README**
+## 🤝 Let's Connect
 
-I'm here to help you make this open-source-ready and ✨ polished.
+If you're building with LangGraph, Groq, or working on multi-agent AI — I'm happy to collaborate or brainstorm. Drop a ⭐ if this helped!
+
+---
+
+## 📜 License
+
+MIT License – use it freely, improve it, build on top of it!
+
+```
